@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Arial;
+}
+body{
+    background-color: rgb(2, 43, 4);
+    /* background-image: url(https://th.bing.com/th/id/Rd820b497cc152184d0f6620a9ec15714?rik=NdJJFHHnyGxSVg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2015%2f12%2f40105-gradient-simple_background-colorful-abstract.jpg&ehk=HXCvpXoX%2fSQHIUxEUk8uCjhkgJNzA46%2bX6VinvVPLN8%3d&risl=&pid=ImgRaw); */
+    background-repeat: repeat;
+}
+.calc{
+    width: 400px;
+    margin: 100px auto;
+}
+.display{
+    color: #ffffff;
+    text-align: right;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.keypad-table{
+
+}
+.keypad-table tr:first-child .key{
+    background-color: #43094b;
+}
+.keypad-table tr:first-child .key:active{
+    background-color: #6d09f0e1;
+}
+.keypad-table tr td:last-child .key{
+    background-color:  #43094b;
+}
+.keypad-table tr td:last-child .key:active{
+    background-color: #f5b351cc;
+}
+.key{
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 90px;
+    margin: 5px;
+    background-color: #03484d;
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+}
+.key:active{
+    background-color:  #fdda16;
+}
